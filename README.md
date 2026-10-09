@@ -32,28 +32,49 @@ This project analyzes customer behavior, identifies churn patterns, and predicts
 
 customer-churn-prediction/
 │
+
 ├── app/
+
 │   ├── app.py
+
 │   └── churn_model.pkl
+
 │
+
 ├── data/
+
 │   ├── raw/
+
 │   ├── cleaned/
+
 │   └── visuals/
+
 │
+
 ├── notebooks/
+
 │   ├── eda.ipynb
+
 │   └── model.ipynb
+
 │
 ├── powerbi/
+
 │   └── churn_dashboard.pbix
+
 │
+
 ├── sql/
+
 │   └── queries.sql
+
 │
 ├── requirements.txt
+
 ├── .gitignore
+
 └── README.md
+
 
 
 # 📊 SQL Analysis
@@ -142,4 +163,31 @@ A Streamlit application was developed to provide real-time customer churn predic
 - Stay probability
 - Risk level classification (Low, Medium, High)
 
+# 📷 Project Screenshots
+## Streamlit Application
 <img width="1920" height="924" alt="image" src="https://github.com/user-attachments/assets/139fcc42-2503-4818-8a17-19d396f8bfc1" />
+
+## Prediction Result
+<img width="1920" height="911" alt="image" src="https://github.com/user-attachments/assets/2037f9e6-17f4-4c8f-8504-761d5b5d8648" />
+
+## Power BI Dashboard
+<img width="1173" height="666" alt="image" src="https://github.com/user-attachments/assets/d5e2a6e9-f47b-4eb4-aad1-b12a3e18336b" />
+
+## Feature Importance
+<img width="800" height="500" alt="image" src="https://github.com/user-attachments/assets/6884ae1b-325e-4612-b64f-54468442fa25" />
+
+# 🚀 Installation
+
+## 1. Clone the Repository
+git clone https://github.com/veenaa-p/customer-churn-prediction.git
+
+## 2. Navigate to the Project
+cd customer-churn-prediction
+
+## 3. Install Required Libraries
+pip install -r requirements.txt
+
+## 4. Run the Streamlit Application
+streamlit run app/app.py
+
+
