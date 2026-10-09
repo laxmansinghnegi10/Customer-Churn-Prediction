@@ -6,3 +6,10 @@ An end-to-end Data Analytics and Machine Learning project that predicts customer
 Customer churn is one of the biggest challenges faced by subscription-based businesses. Understanding why customers leave helps organizations improve customer retention and reduce revenue loss.
 
 This project analyzes customer behavior, identifies churn patterns, and predicts whether a customer is likely to churn using a Random Forest Classifier.
+
+# 🎯 Project Objectives
+- Analyze customer churn trends using SQL.
+- Perform Exploratory Data Analysis (EDA) using Python.
+- Build and evaluate a Machine Learning classification model.
+- Develop an interactive Power BI dashboard.
+- Deploy a Streamlit web application for real-time customer churn prediction.
