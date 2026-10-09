@@ -162,16 +162,30 @@ A Streamlit application was developed to provide real-time customer churn predic
 
 # 🚀 Installation
 
-## 1. Clone the Repository
+## 🚀 Installation & Setup
+
+### 1. Clone the Repository
+
+```bash
 git clone https://github.com/veenaa-p/customer-churn-prediction.git
+```
 
-## 2. Navigate to the Project
+### 2. Navigate to the Project
+
+```bash
 cd customer-churn-prediction
+```
 
-## 3. Install Required Libraries
+### 3. Install Required Libraries
+
+```bash
 pip install -r requirements.txt
+```
 
-## 4. Run the Streamlit Application
+### 4. Run the Streamlit Application
+
+```bash
 streamlit run app/app.py
+```
 
 
